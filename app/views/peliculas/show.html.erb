@@ -1,0 +1,23 @@
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @pelicula.titulo %>
+</p>
+
+<p>
+  <strong>Duracion:</strong>
+  <%= @pelicula.duracion %>
+</p>
+
+<p>
+  <strong>Actor principal:</strong>
+  <%= @pelicula.actor_principal %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @pelicula.descripcion %>
+</p>
+
+<%= link_to 'Edit', edit_pelicula_path(@pelicula) %> |
+<%= link_to 'Back', peliculas_path %>
